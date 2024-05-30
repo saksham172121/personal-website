@@ -302,6 +302,15 @@ a,
   justify-content: space-around;
 }
 
+.article-container-2 {
+  display: flex;
+  text-align: initial;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
 article {
   display: flex;
   width: 10rem;
@@ -324,7 +333,7 @@ article .icon {
   display: none;
   align-items: center;
   justify-content: space-between;
-  margin: 30px 35px;
+  margin: 2rem 0;
 }
 
 .hamburger-menu {
