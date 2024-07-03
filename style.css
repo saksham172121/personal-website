@@ -246,7 +246,10 @@ a,
 }
 
 /* SKILLS */
-
+.about-containers{
+  display: flex;
+  flex-direction: column;
+}
 .thirdsection {
   position: relative;
   justify-content: space-around;
@@ -264,7 +267,7 @@ a,
 }
 .details-container-skills {
   padding: 1.5rem;
-  margin: 69px 200px;
+  margin: 30px 200px;
   background: #1e2122;
   border-radius: 2rem;
   box-shadow: 7px 6px 45px 10px #494ec9;
