@@ -1,0 +1,162 @@
+/* Mobile First Approach */
+
+/* Default Mobile Styles */
+
+/* DESKTOP NAV */
+nav {
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+  
+  /* SECTIONS */
+  section {
+    margin: 0 1rem;
+    height: auto;
+    padding-bottom: 2rem;
+  }
+  
+  /* PROFILE SECTION */
+  .section__pic-container {
+    width: 100%;
+    height: auto;
+  }
+  
+  .section__pic-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .section__text {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2rem;
+  }
+  
+  .btn-container {
+    flex-direction: column;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  /* ABOUT SECTION */
+  .section-container {
+    flex-direction: column;
+  }
+  
+  .about-pic {
+    width: 100%;
+  }
+  
+  .details-container {
+    width: 100%;
+  }
+  
+  /* EXPERIENCE SECTION */
+  .article-container {
+    flex-direction: column;
+  }
+  
+  article {
+    width: 100%;
+  }
+  
+  /* CONTACT */
+  .contact-info-upper-container {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  
+  .contact-info-container {
+    justify-content: flex-start;
+  }
+  
+  .contact-info-container p {
+    font-size: medium;
+  }
+  
+  /* FOOTER SECTION */
+  footer {
+    margin: 0;
+  }
+  
+  /* TABLET STYLES */
+  @media screen and (min-width: 600px) {
+    /* DESKTOP NAV */
+    .nav-links {
+      font-size: 1.25rem;
+    }
+  
+    /* PROFILE SECTION */
+    .title {
+      font-size: 2.5rem;
+    }
+  }
+  
+  /* DESKTOP STYLES */
+  @media screen and (min-width: 1024px) {
+    #hamburger-nav {
+      display: none;
+    }
+  
+    #desktop-nav {
+      display: flex;
+    }
+  
+    nav,
+    .nav-links {
+      font-size: 1.5rem;
+    }
+  
+    /* PROFILE SECTION */
+    #profile {
+      flex-direction: row;
+    }
+  
+    .title {
+      font-size: 3rem;
+    }
+  
+    .btn-container {
+      flex-direction: row;
+    }
+  
+    .btn {
+      width: auto;
+    }
+  
+    /* ABOUT SECTION */
+    .section-container {
+      flex-direction: row;
+    }
+  
+    .about-pic {
+      width: 50%;
+    }
+  
+    .details-container {
+      width: 50%;
+    }
+  
+    /* EXPERIENCE SECTION */
+    .article-container {
+      flex-direction: row;
+    }
+  
+    article {
+      width: auto;
+    }
+  
+    /* CONTACT */
+    .contact-info-upper-container {
+      flex-direction: row;
+    }
+  
+    .contact-info-container p {
+      font-size: large;
+    }
+  }
+  

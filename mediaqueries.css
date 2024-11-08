@@ -1,32 +1,29 @@
 @media screen and (max-width: 1400px) {
     #sec1 {
-      height: 65vh;
+      height: 75vh;
       margin-bottom: 6rem;
     }
     #sec2{
-        height:100vh
+        height:100vh;
+        width: 100vw;
     }
     #sec3{
-        height:100vh
+        height:100vh;
+    }
+    .arrow_sec2 {
+
+      right: 5rem;
     }
     .about-containers {
       flex-wrap: wrap;
     }
     #sec4 {
-      height: fit-content;
+      height: 97vh;
     }
-    .blob,.blob2,.blob3{
-        display: none;
+    .thirdsection{
+      margin: 0 5rem;
     }
-    .firstsection{
-     flex-direction: column;   
-     margin: 4.5rem 0;
-     width: 100vw;
-     padding-top: 0vh;
-     flex-wrap: wrap;
-     justify-content: start;
-     
-    }
+
     .leftsection{
         width: 100%;
         margin: 0;
@@ -49,9 +46,7 @@
     .about_containers{
         gap: 1rem;
     }
-    .details-container{
-        min-width: 0;
-    }
+
     .details-container h3{
         font-size: smaller;
     }
@@ -68,17 +63,16 @@
 
   }
   
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1024px) {
+    .secondsection{
+      margin: 0;
+    }
     #desktop-nav {
       display: none;
     }
     #hamburger-nav {
       display: flex;
       width: 100%;
-    }
-    #experience,
-    .experience-details-container {
-      margin-top: 2rem;
     }
     #profile,
     .section-container {
@@ -102,66 +96,150 @@
     .about-containers {
       margin-top: 0;
     }
-  }
-  
-  @media screen and (max-width: 600px) {
 
-    .bgimage {
-      width: 500px;
-      height: 500px;
+    .blob{
+      top: 19%;
+      left: 48%;
     }
-
-    #contact,
-    footer {
-      height: 40vh;
+    .firstsection{
+      margin: 0 2rem;
     }
-    #profile {
-      height: 83vh;
-      margin-bottom: 0;
+    .rightsection img{
+      height: 69vh;
+      width: 45vw;
+      margin: 0 1vw 0 0;
     }
-    article {
-      font-size: 1rem;
-    }
-    footer nav {
-      height: fit-content;
-      margin-bottom: 2rem;
-    }
-    .about-containers,
-    .contact-info-upper-container,
-    .btn-container {
-      flex-wrap: wrap;
-    }
-    .contact-info-container {
+    .thirdsection{
       margin: 0;
     }
-    .contact-info-container p,
-    .nav-links li a {
-      font-size: 1rem;
+    .experience-sub-title{
+      margin-bottom: 1rem;
     }
-    .experience-sub-title {
-      font-size: 1.25rem;
+    .details-container-skills{
+      max-height: none;
+      margin: 1rem 3rem;
     }
-    .logo {
-      font-size: 1.5rem;
-    }
-    .nav-links {
-      flex-direction: column;
-      gap: 0.5rem;
-      text-align: center;
-    }
-    .section__pic-container {
-      width: auto;
-      height: 46vw;
+    .article-container{
+      gap: 0;
       justify-content: center;
+      align-items: center;
     }
-    .section__text__p2 {
-      font-size: 1.25rem;
+    .article-container img{
+      height: 2rem;
     }
-    .title {
-      font-size: 2rem;
+    .article-container p{
+      font-size: 0.8rem;
     }
-    .text-container {
-      text-align: justify;
+    .article-container h3{
+      font-size: 0.9rem;
+    }
+    .article-container-2{
+      gap: 0;
+      justify-content: center;
+      align-items: center;
+    }
+    .article-container-2 img{
+      height: 2rem;
+    }
+    .article-container-2 p{
+      font-size: 0.8rem;
+    }
+    .article-container-2 h3{
+      font-size: 0.9rem;
     }
   }
   
+@media screen and (max-width: 768px) {
+
+  .arrow,.arrow_sec1,.arrow_sec2{
+    display: none;
+  }
+  #sec1{
+    margin-top: 4.5rem;
+  }
+  .firstsection{
+    flex-direction: column;   
+    margin: 4.5rem 0;
+    width: 100vw;
+    padding-top: 0vh;
+    flex-wrap: wrap;
+    justify-content: start;
+    
+   }
+  .rightsection img{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    
+  }
+  .thirdsection{
+    margin:0;
+  }
+  .details-container-skills{
+    margin:3% 1% 5% 1%;
+    min-width: 0;
+    width: 90vw;
+    max-height:none;
+    padding: 0%;
+  }
+  .details-container{
+    min-width: 0;
+    margin: 0 3%;
+    width: 84vw;
+  }
+  .contact-info-upper-container{
+    max-width: 97vw;
+  }
+  .about-containers{
+    align-items: center;
+  }
+  .about_containers{
+    flex-direction: column;
+
+  }
+  .article-container-2{
+    padding: 4%;
+  }
+  .article-container{
+    margin: 0;
+    gap: 0.7rem;
+  }
+  article{
+    gap: 0.1rem;
+    width: 7rem;
+  }
+  article h3, article p{
+    font-size: 0.7rem;
+  }
+  article .icon{
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .secondsection_text1{
+    margin : 0;
+    
+  }
+  .experience-sub-title{
+    margin: 5% 0 5% 0;
+  }
+  #sec4{
+    margin: 0;
+    align-items: center;
+    justify-content: flex-start;
+    height: 75vh;
+  }
+  .contact-info-upper-container{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+  }
+
+  footer{
+    .footer-links-container ul li{
+      margin: 0;
+    }
+  }
+  .blob,.blob2,.blob3{
+    display: none;
+  }
+}

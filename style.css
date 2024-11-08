@@ -7,6 +7,13 @@ body {
 }
 html {
   scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+nav{
+  scroll-snap-align: start;
+}
+section{
+  scroll-snap-align: start;
 }
 a,
 .btn {
@@ -224,6 +231,12 @@ a,
   right: 4rem;
   bottom: 4rem;
 }
+/* Here i hate it even more */
+.arrow_sec2 {
+  position: absolute;
+  right: -5rem;
+  bottom: 4rem;
+}
 .details-container {
   padding: 1.5rem;
 
@@ -274,6 +287,7 @@ a,
   border: #6569de 0.1rem solid;
   text-align: center;
   min-width: 50vh;
+  max-height:30vh;
 }
 
 .cert {
